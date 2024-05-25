@@ -1,5 +1,6 @@
 # ThaiPy103
-Repo with example code presented in ThaiPy103
+Repo with example code presented in ThaiPy103  
+
 Meetup link:  
 https://www.meetup.com/thaipy-bangkok-python-meetup/events/299565220/
 
