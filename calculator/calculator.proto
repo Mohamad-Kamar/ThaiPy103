@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package calculator;
+
+// The calculator service definition.
+service Calculator {
+  // RPC method for addition
+  rpc Add (AddRequest) returns (AddResponse);
+
+  // RPC method for multiplication
+  rpc Multiply (MultiplyRequest) returns (MultiplyResponse);
+}
+
+// Request message for Add
+message AddRequest {
+  float number1 = 1;
+  float number2 = 2;
+}
+
+// Response message for Add
+message AddResponse {
+  float result = 1;
+}
+
+// Request message for Multiply
+message MultiplyRequest {
+  float number1 = 1;
+  float number2 = 2;
+}
+
+// Response message for Multiply
+message MultiplyResponse {
+  float result = 1;
+}
